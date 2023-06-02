@@ -20,7 +20,7 @@ export const navLinks = [
         id: "004",
         path: '/',
         content: 'LAUNCH ULTIVERSE'
-    },
+    }
 ]
 
 export const sidenavLinks = [
