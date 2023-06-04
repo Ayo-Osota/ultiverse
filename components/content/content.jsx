@@ -5,7 +5,7 @@ import styles from "./content.module.css";
 const Content = () => {
     return (
         <div className={styles.wrapper}>
-            <div>
+            <div className="sm-hidden">
                 <Image src="/images/click-rotate.svg" alt="click" width={105} height={105} />
             </div>
             <div className={styles.body}>

@@ -6,8 +6,8 @@ import { navLinks } from '@/data';
 const Navbar = () => {
     return (
         <div className={`${styles.navWrapper} container`}>
-            <div className="flex-center">
-                <Image src="/images/logo.svg" alt="multiverse" width={30} height={35} />
+            <div className={`${styles.logo} flex-center`}>
+                <Image src="/images/logo.svg" alt="multiverse" width={30} height={35}/>
             </div>
 
             <div className={styles.progressBar}>
@@ -31,7 +31,9 @@ const Navbar = () => {
                             )
                         })}
                         <li className="flex-center">
+                        <Link href="/">
                             <Image src="/images/hamburger.svg" alt="menu" width={36} height={8} />
+                            </Link>
                         </li>
                     </ul>
                 </nav>

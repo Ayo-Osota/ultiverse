@@ -136,3 +136,9 @@ a:not(.video-link):hover,
 a:not(.video-link):focus-visible {
   color: rgb(var(--accent-rgb));
 }
+
+@media (max-width: 768px) {
+  .sm-hidden {
+    display: none;
+  }
+}

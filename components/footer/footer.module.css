@@ -5,6 +5,7 @@
     grid-template-columns: 1fr auto 1fr;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
 }
 
 .footer p {
@@ -63,5 +64,11 @@
     }
     100% {
       transform: scaleY(0.5);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer p {
+      font-size: var(--fs-400);
     }
   }

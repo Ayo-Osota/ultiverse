@@ -9,7 +9,7 @@ const Sidebar = () => {
 
     return (
         <div className={styles.wrapper}>
-            <nav>
+            <nav className="sm-hidden">
                 <ul className="list">
                     {sidenavLinks.map((link) => {
                         const {id, content, path} = link;

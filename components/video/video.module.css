@@ -8,6 +8,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding: 5% 13%;
+    padding-top: 88.83%;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 10;
 }
