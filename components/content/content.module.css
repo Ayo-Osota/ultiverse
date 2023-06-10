@@ -10,7 +10,7 @@
     height: 50vh;
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: auto 30.8%;
+    grid-template-columns: repeat(6, 1fr);
 }
 
 .textWrapper {
@@ -28,6 +28,13 @@
 
 .textWrapper img:last-child {
     align-self: flex-end;
+}
+
+@media (min-width: 768px) {
+    .textWrapper {
+        grid-column: 1 / 6;
+        grid-row-start: 1;
+    }
 }
 
 @media (max-width: 768px) {

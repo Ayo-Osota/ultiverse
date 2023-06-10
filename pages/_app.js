@@ -5,6 +5,9 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
+    <div className='line-divider'></div>
+    <div className='line-divider'></div>
+    <div className='line-divider'></div>
       <Navbar />
       <Component {...pageProps} />
     </>

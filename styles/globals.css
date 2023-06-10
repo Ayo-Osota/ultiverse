@@ -15,6 +15,7 @@
 
   --fs-300: 0.8125rem;
   --fs-400: 1rem;
+  --fs-410: 1.035rem;
   --fs-500: 1.25rem;
   --fs-600: 1.5rem;
 
@@ -141,4 +142,24 @@ a:not(.video-link):focus-visible {
   .sm-hidden {
     display: none;
   }
+}
+
+.line-divider {
+  position: absolute;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-color: rgba(var(--text-rgb), 0.1);
+}
+
+.line-divider:nth-of-type(1) {
+  left: 25%;
+}
+
+.line-divider:nth-of-type(2) {
+  left: 50%;
+}
+
+.line-divider:nth-of-type(3) {
+  left: 75%;
 }

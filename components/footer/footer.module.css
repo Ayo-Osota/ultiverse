@@ -6,20 +6,21 @@
     justify-content: space-between;
     align-items: center;
     z-index: 10;
+    gap: 2.25rem;
 }
 
 .footer p {
-    font-size: var(--fs-500);
+    font-size: var(--fs-400);
     line-height: 141.2%;
 }
 
 .footerLeft {
     grid-template-columns: auto 1fr;
-    gap: 2.25rem;
 }
 
 .footerLeft p {
     max-width: 48ch;
+    font-size: var(--fs-500);
 }
 
 .playingAnimation__container {
